@@ -9,7 +9,6 @@ nixPkgs = [
 cmds = [
     "python -m venv /opt/venv",
     ". /opt/venv/bin/activate",
-    "pip install --upgrade pip",
     "find . -name 'test_func_inspect_special_encoding.py' -delete || true",
     "pip install -r requirements.txt"
 ]
