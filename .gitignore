@@ -1,0 +1,23 @@
+# Ignore Python virtual environment
+venv/
+__pycache__/
+
+# Ignore Python bytecode
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore log files and system files
+*.log
+.DS_Store
+
+# Ignore IDE/editor-specific files
+.vscode/
+.idea/
+*.swp
+
+# Ignore environment variables (if using dotenv for secrets)
+.env
+
+# Ignore Gunicorn logs (optional)
+gunicorn.log
